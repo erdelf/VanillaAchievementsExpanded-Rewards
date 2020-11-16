@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <AchievementsExpanded.Reward_MapIncident>
+        <defName>VAE_RA_CustomReward</defName>
+        <label>Flu Joins</label>
+        <tab>Main</tab>
+        <cost>-20</cost>
+        <incident>Disease_Flu</incident>
+    </AchievementsExpanded.Reward_MapIncident>
+
+    <AchievementsExpanded.Reward_MapIncident>
+        <defName>VAE_RA_CustomReward2</defName>
+        <label>Chunk Joins</label>
+        <tab>Main</tab>
+        <cost>20</cost>
+        <incident>ShipChunkDrop</incident>
+    </AchievementsExpanded.Reward_MapIncident>
+
+    <RewardsAddon.Reward_GiveWeapon>
+        <defName>VAE_RA_GiveWeapon</defName>
+        <label>Get a weapon</label>
+        <tab>Main</tab>
+        <cost>50</cost>
+    </RewardsAddon.Reward_GiveWeapon>
+
+    <RewardsAddon.Reward_GiveApparel>
+        <defName>VAE_RA_GiveApparel</defName>
+        <label>Get some apparel</label>
+        <tab>Main</tab>
+        <cost>50</cost>
+    </RewardsAddon.Reward_GiveApparel>
+
+    <RewardsAddon.Reward_GiveArt>
+        <defName>VAE_RA_GiveArt</defName>
+        <label>Get some art</label>
+        <tab>Main</tab>
+        <cost>50</cost>
+    </RewardsAddon.Reward_GiveArt>
+
+    <RewardsAddon.Reward_GiveAnimal>
+        <defName>VAE_RA_GiveAnimal</defName>
+        <label>Get some animals</label>
+        <tab>Main</tab>
+        <cost>50</cost>
+    </RewardsAddon.Reward_GiveAnimal>
+
+	<RewardsAddon.Reward_OrbitalTrader>
+        <defName>VAE_RA_GetOrbitalTrader</defName>
+        <label>Get orbital trader</label>
+        <tab>Main</tab>
+        <cost>50</cost>
+    </RewardsAddon.Reward_OrbitalTrader>
+
+	<RewardsAddon.Reward_SendHappyThoughts>
+        <defName>VAE_RA_SendHappyThoughts</defName>
+        <label>Send happy thoughts</label>
+        <tab>Main</tab>
+        <cost>50</cost>
+    </RewardsAddon.Reward_SendHappyThoughts>
+
+	<RewardsAddon.Reward_DebugGivePoints>
+        <defName>VAE_RA_DEBUG_GetPoints</defName>
+        <label>DEBUG: Get Points</label>
+        <tab>Main</tab>
+        <cost>-200</cost>
+    </RewardsAddon.Reward_DebugGivePoints>
+</Defs>
