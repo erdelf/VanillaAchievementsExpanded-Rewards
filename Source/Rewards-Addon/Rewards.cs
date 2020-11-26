@@ -288,7 +288,7 @@
                 }
                 pawn.equipment.DestroyAllEquipment();
 
-                ThingDef weaponDef = weaponDefs.RandomElementByWeight(weightSelector: td => weaponMaxDifference - (td.BaseMarketValue - weaponMoney));
+                ThingDef weaponDef = weaponDefs.RandomElementByWeight(weightSelector: td => weaponMaxDifference - Mathf.Abs(td.BaseMarketValue - weaponMoney));
                 if (weaponDef.IsRangedWeapon)
                     pawn.apparel.WornApparel.RemoveAll(match: ap => ap.def == ThingDefOf.Apparel_ShieldBelt);
                 ThingWithComps weapon = ThingMaker.MakeThing(weaponDef, weaponDef.MadeFromStuff ? ThingDefOf.Plasteel : null) as ThingWithComps;
