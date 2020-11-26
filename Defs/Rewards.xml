@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+    <RewardsAddon.Reward_SendThoughts>
+        <defName>VAE_RA_SendNotSoHappyThoughts</defName>
+        <label>Send not so happy thoughts</label>
+        <tab>Main</tab>
+        <cost>-30</cost>
+        <thoughtDef>VAE_RA_NotSoHappyThought</thoughtDef>
+    </RewardsAddon.Reward_SendThoughts>
+
     <AchievementsExpanded.Reward_MapIncident>
-        <defName>VAE_RA_CustomReward</defName>
+        <defName>VAE_RA_Flu</defName>
         <label>Flu Joins</label>
         <tab>Main</tab>
         <cost>-20</cost>
@@ -9,10 +17,10 @@
     </AchievementsExpanded.Reward_MapIncident>
 
     <AchievementsExpanded.Reward_MapIncident>
-        <defName>VAE_RA_CustomReward2</defName>
-        <label>Chunk Joins</label>
+        <defName>VAE_RA_ShipChunk</defName>
+        <label>Ship Chunk Drop</label>
         <tab>Main</tab>
-        <cost>20</cost>
+        <cost>10</cost>
         <incident>ShipChunkDrop</incident>
     </AchievementsExpanded.Reward_MapIncident>
 
@@ -20,14 +28,15 @@
         <defName>VAE_RA_GiveWeapon</defName>
         <label>Get a weapon</label>
         <tab>Main</tab>
-        <cost>50</cost>
+        <cost>30</cost>
     </RewardsAddon.Reward_GiveWeapon>
 
     <RewardsAddon.Reward_GiveApparel>
         <defName>VAE_RA_GiveApparel</defName>
         <label>Get some apparel</label>
         <tab>Main</tab>
-        <cost>50</cost>
+        <cost>30</cost>
+        <range>3~7</range>
     </RewardsAddon.Reward_GiveApparel>
 
     <RewardsAddon.Reward_GiveArt>
@@ -37,28 +46,45 @@
         <cost>50</cost>
     </RewardsAddon.Reward_GiveArt>
 
-    <RewardsAddon.Reward_GiveAnimal>
-        <defName>VAE_RA_GiveAnimal</defName>
+    <RewardsAddon.Reward_GiveAnimals>
+        <defName>VAE_RA_GiveAnimals</defName>
         <label>Get some animals</label>
         <tab>Main</tab>
-        <cost>50</cost>
-    </RewardsAddon.Reward_GiveAnimal>
+        <cost>30</cost>
+        <range>3~5</range>
+    </RewardsAddon.Reward_GiveAnimals>
 
-	<RewardsAddon.Reward_OrbitalTrader>
+    <RewardsAddon.Reward_GiveAnimals>
+        <defName>VAE_RA_GiveAnimals_Big</defName>
+        <label>Get some more animals</label>
+        <tab>Main</tab>
+        <cost>60</cost>
+        <range>10~15</range>
+    </RewardsAddon.Reward_GiveAnimals>
+
+    <RewardsAddon.Reward_OrbitalTrader>
         <defName>VAE_RA_GetOrbitalTrader</defName>
         <label>Get orbital trader</label>
         <tab>Main</tab>
-        <cost>50</cost>
+        <cost>30</cost>
     </RewardsAddon.Reward_OrbitalTrader>
 
-	<RewardsAddon.Reward_SendHappyThoughts>
+    <RewardsAddon.Reward_SendThoughts>
         <defName>VAE_RA_SendHappyThoughts</defName>
         <label>Send happy thoughts</label>
         <tab>Main</tab>
-        <cost>50</cost>
-    </RewardsAddon.Reward_SendHappyThoughts>
+        <cost>20</cost>
+        <thoughtDef>VAE_RA_HappyThought</thoughtDef>
+    </RewardsAddon.Reward_SendThoughts>
 
-	<RewardsAddon.Reward_DebugGivePoints>
+    <RewardsAddon.Reward_EvilRaid>
+        <defName>VAE_RA_EvilRaid</defName>
+        <label>Evil Raid</label>
+        <tab>Main</tab>
+        <cost>-100</cost>
+    </RewardsAddon.Reward_EvilRaid>
+
+    <RewardsAddon.Reward_DebugGivePoints>
         <defName>VAE_RA_DEBUG_GetPoints</defName>
         <label>DEBUG: Get Points</label>
         <tab>Main</tab>

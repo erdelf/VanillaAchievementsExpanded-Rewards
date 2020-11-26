@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThoughtDef>
+        <defName>VAE_RA_HappyThought</defName>
+        <durationDays>1</durationDays>
+        <stackLimit>100</stackLimit>
+        <stackedEffectMultiplier>0.75</stackedEffectMultiplier>
+        <stages>
+            <li>
+                <label>I feel happy</label>
+                <description>A presence in my mind soothes me. Everything seems just a little bit better.</description>
+                <baseMoodEffect>20</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>VAE_RA_NotSoHappyThought</defName>
+        <durationDays>3</durationDays>
+        <stackLimit>100</stackLimit>
+        <stackedEffectMultiplier>2</stackedEffectMultiplier>
+        <stages>
+            <li>
+                <label>I feel dread</label>
+                <description>A presence in my mind terrifies me. Life seems like hell.</description>
+                <baseMoodEffect>-50</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+</Defs>
