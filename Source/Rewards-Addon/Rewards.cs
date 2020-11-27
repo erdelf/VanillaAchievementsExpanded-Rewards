@@ -186,16 +186,14 @@
             IncidentDefOf.OrbitalTraderArrival.Worker.TryExecute(new IncidentParms() {target = Find.CurrentMap});
     }
 
-    public class Reward_SendThoughts : Reward_MapBased
+    public class Reward_SendThoughts : AchievementReward
     {
         public ThoughtDef thoughtDef;
 
         public override bool TryExecuteEvent()
         {
-            foreach (Pawn p in Find.ColonistBar.GetColonistsInOrder().Where(predicate: x => !x.Dead))
-            {
-                p.needs.mood.thoughts.memories.TryGainMemory(thoughtDef);
-            }
+            foreach (Pawn p in Find.ColonistBar.GetColonistsInOrder().Where(predicate: x => !x.Dead)) 
+                p.needs.mood.thoughts.memories.TryGainMemory(this.thoughtDef);
 
             return true;
         }
